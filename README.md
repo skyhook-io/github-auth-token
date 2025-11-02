@@ -13,7 +13,7 @@ Generates GitHub tokens for cross-repository access using GitHub Apps or Persona
 
 ```yaml
 - name: Get GitHub token
-  uses: KoalaOps/github-auth-token@v1
+  uses: skyhook-io/github-auth-token@v1
   id: auth
   with:
     github_app_id: ${{ secrets.GH_APP_ID }}
@@ -58,7 +58,7 @@ Generates GitHub tokens for cross-repository access using GitHub Apps or Persona
 ### GitHub App authentication
 ```yaml
 - name: Setup GitHub App auth
-  uses: KoalaOps/github-auth-token@v1
+  uses: skyhook-io/github-auth-token@v1
   id: auth
   with:
     github_app_id: ${{ secrets.GH_APP_ID }}
@@ -75,7 +75,7 @@ Generates GitHub tokens for cross-repository access using GitHub Apps or Persona
 ### PAT authentication
 ```yaml
 - name: Setup PAT auth
-  uses: KoalaOps/github-auth-token@v1
+  uses: skyhook-io/github-auth-token@v1
   id: auth
   with:
     github_pat: ${{ secrets.GHA_PAT }}
@@ -92,7 +92,7 @@ Generates GitHub tokens for cross-repository access using GitHub Apps or Persona
 ### Conditional cross-repo access
 ```yaml
 - name: Get auth token
-  uses: KoalaOps/github-auth-token@v1
+  uses: skyhook-io/github-auth-token@v1
   id: auth
   with:
     # Only use PAT for cross-repo, otherwise default token

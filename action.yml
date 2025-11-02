@@ -1,6 +1,6 @@
 name: 'GitHub Auth Token'
 description: 'Gets GitHub token from PAT or GitHub App for cross-repo access'
-author: 'KoalaOps'
+author: 'Skyhook'
 
 branding:
   icon: 'key'
