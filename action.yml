@@ -1,4 +1,4 @@
-name: 'GitHub Auth Token'
+name: 'Skyhook GitHub Auth Token'
 description: 'Gets GitHub token from PAT or GitHub App for cross-repo access'
 author: 'Skyhook'
 
